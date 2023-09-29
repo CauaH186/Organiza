@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #202024;
+  color: #e1e1e6;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem Roboto, sans-serif;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #323238;
+  border-radius: 5px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #323238;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #121214;
+  border-radius: 5px;
+}
